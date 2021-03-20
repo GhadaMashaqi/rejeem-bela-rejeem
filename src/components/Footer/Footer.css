@@ -1,0 +1,48 @@
+footer {
+    background-image: url(../../assets/images/section-2-background.png);
+    background-repeat: no-repeat;
+    background-position: left 50%;
+    padding-top: 50px;
+}
+.footer-top {
+    text-align: center;
+    border-bottom: 1px solid rgba(146,146,146,0.20);
+}
+.footer-top p.pink-text {
+    font-size: 22px;
+    font-family: 'Aniara-Regular' !important;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-top a {
+    color: #58595B;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+.footer-top a:hover {
+    color: #E03C8A;
+}
+.footer-top li {
+    padding: 8px 0;
+}
+.footer-bottom ul {
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.footer-bottom ul a {
+    color: #58595B;
+    margin: 10px;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+.footer-bottom ul a:hover {
+    color: #E03C8A;
+}
+.footer-bottom p {
+    color: #58595B;
+}
+.footer-bottom {
+    padding-top: 15px;
+}

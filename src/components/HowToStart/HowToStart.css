@@ -1,0 +1,31 @@
+#how-to-start h1 {
+    font-size: 45px;
+}
+#how-to-start p.description {
+    max-width: 45%;
+    margin: 15px auto;
+}
+#how-to-start .img {
+    min-height: 445px;
+}
+#how-to-start p.pink-text {
+    font-size: 30px;
+    margin-top: 25px;
+}
+#how-to-start {
+    background-image: url(../../assets/images/section-2-background.png);
+    background-repeat: no-repeat;
+    background-position: left 50%;
+}
+#how-to-start .row>div:nth-child(2),
+#how-to-start .row>div:nth-child(3) {
+    position: relative;
+}
+#how-to-start .row>div:nth-child(2):after,
+#how-to-start .row>div:nth-child(3):after {
+    content: url(../../assets/images/how-to-start-arrow.svg);
+    position: absolute;
+    right: -20px;
+    top: 45%;
+    transform: translateY(-50%);
+}

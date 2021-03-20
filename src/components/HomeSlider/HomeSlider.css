@@ -1,0 +1,22 @@
+#home-section-1 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../../assets/images/home-background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+#home-section-1 a {
+    color: #E03C8A;
+    font-size: 20px;
+}
+#home-section-1 h1 {
+    font-size: 45px;
+}
+#home-section-1 p {
+    margin: 25px 0;
+}
+#home-section-1 a i {
+    font-weight: 400;
+}

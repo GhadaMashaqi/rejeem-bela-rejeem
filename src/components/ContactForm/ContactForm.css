@@ -1,0 +1,24 @@
+#contact-us .right {
+    background-image: url(../../assets/images/contact-background.png);
+    padding: 120px 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#contact-us .right h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+#contact-us .right input,
+#contact-us textarea {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: 90%;
+    display: block;
+    margin-bottom: 40px;
+    color: #fff;
+}
+#contact-us .right input:focus, 
+#contact-us textarea:focus {
+    outline: 0;
+}

@@ -1,0 +1,48 @@
+#contact-us {
+    padding-top: 150px;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+}
+#contact-us p {
+    color: #58595B;
+}
+#contact-us p img {
+    margin-right: 10px;
+}
+#contact-us p.pink-text {
+    color: #E03C8A;
+}
+#contact-us h3 {
+    color: #58595B;
+    font-size: 45px;
+}
+#contact-us label {
+    color: #fff;
+}
+#contact-us .row {
+    align-items: center;
+}
+#contact-us textarea {
+    max-height: 150px;
+}
+#contact-us button {
+    border: 0;
+    color: #E03C8A;
+    padding: 9px 40px;
+    background: #fff;
+    font-size: 18px;
+}
+#contact-us p.info {
+    font-size: 22px;
+    max-width: 75%;
+}
+#location {
+    position: relative;
+    margin-top: -70px;
+    z-index: -1;
+}
+#contact-us .left hr {
+    width: 80%;
+    margin: 35px 0;
+}
